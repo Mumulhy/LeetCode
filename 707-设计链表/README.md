@@ -4,6 +4,22 @@ Author：_Mumu
 
 创建日期：2019/10/2
 
+通过日期：2019/10/3
+
+![](.\通过截图1.jpg)
+
+![](.\通过截图2.jpg)
+
+*****
+
+踩过的坑：
+
+1. index从0开始计
+2. 删除单一元素链表时，链表的head与tail要置None
+3. 写双向链表时，addAtIndex方法别写出让新节点自己指向自己的语句（主要出错在prev，next不容易犯错）
+
+------
+
 难度：简单
 
 问题描述：
@@ -18,7 +34,6 @@ addAtTail(val)：将值为 val 的节点追加到链表的最后一个元素。
 addAtIndex(index,val)：在链表中的第 index 个节点之前添加值为 val  的节点。如果 index 等于链表的长度，则该节点将附加到链表的末尾。如果 index 大于链表长度，则不会插入节点。如果index小于0，则在头部插入节点。
 deleteAtIndex(index)：如果索引 index 有效，则删除链表中的第 index 个节点。
 
-
 示例：
 
 MyLinkedList linkedList = new MyLinkedList();
@@ -28,7 +43,6 @@ linkedList.addAtIndex(1,2);   //链表变为1-> 2-> 3
 linkedList.get(1);            //返回2
 linkedList.deleteAtIndex(1);  //现在链表是1-> 3
 linkedList.get(1);            //返回3
-
 
 提示：
 
