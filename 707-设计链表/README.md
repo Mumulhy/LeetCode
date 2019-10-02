@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2019/10/3
 
-![](.\通过截图2.jpg)
+![](https://github.com/Mumulhy/LeetCode/blob/master/707-设计链表/通过截图2.jpg)
 
-![](.\通过截图1.jpg)
+![](https://github.com/Mumulhy/LeetCode/blob/master/707-设计链表/通过截图1.jpg)
 
 *****
 
