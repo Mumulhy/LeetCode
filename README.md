@@ -2,4 +2,6 @@
 
 Author：_Mumu
 
-用Python解决LeetCode题库中的问题
+用Python3解决LeetCode题库中的问题
+
+已解决：1/1189（截至2019/10/3）
