@@ -36,3 +36,15 @@ class Solution:
             for x in List:                       # 存储操作后的字符串，用于下次循环或输出
                 s += x
         return s
+
+        # 以下为本题运行最快的算法
+
+        # f =True
+        # while f:
+        #     f=False
+        #     d = 'abcdefghijklmnopqrstuvwxyz'
+        #     for i in d:
+        #         while i * k in s:
+        #             s = s.replace(i * k, '')
+        #             f = True
+        # return s
