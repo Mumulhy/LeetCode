@@ -22,12 +22,9 @@ class Solution(object):
         """
         step = head
         run = head
-        while(1):
-            if run is None:
-                return False
-            elif run.next is None:
-                return False
+        while run and run.next:
             step = step.next           # step步长为1
             run = run.next.next        # run步长为2
             if step is run:
                 return True
+        return False
