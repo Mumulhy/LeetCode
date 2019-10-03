@@ -22,11 +22,11 @@ class MyLinkedList:
         """
         Get the value of the index-th node in the linked list. If the index is invalid, return -1.
         """
-        if index == self.len - 1:
+        if index == self.len - 1:                  # get列表尾
             return self.tail.val
-        elif index > self.len - 1 or index < 0:
+        elif index > self.len - 1 or index < 0:    # index超出范围
             return -1
-        else:
+        else:                                      # get列表头或中间节点
             NodeGot = self.head
             IndexGot = 0
 
@@ -40,11 +40,11 @@ class MyLinkedList:
         """
         Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
         """
-        if self.head is None:
+        if self.head is None:                 # 对空列表添加节点
             NewNode = LinkedListNode(val)
             self.head = NewNode
             self.tail = NewNode
-        else:
+        else:                                 # 对非空列表添加列表头
             NewNode = LinkedListNode(val)
             NewNode.next = self.head
             self.head.prev = NewNode
@@ -56,10 +56,11 @@ class MyLinkedList:
         """
         Append a node of value val to the last element of the linked list.
         """
-        if self.tail is None:
-            self.head = LinkedListNode(val)
-            self.tail = LinkedListNode(val)
-        else:
+        if self.tail is None:                 # 对空列表添加节点
+            NewNode = LinkedListNode(val)
+            self.head = NewNode
+            self.tail = NewNode
+        else:                                 # 对非空列表添加列表尾
             NewNode = LinkedListNode(val)
             NewNode.prev = self.tail
             self.tail.next = NewNode
@@ -71,9 +72,9 @@ class MyLinkedList:
         """
         Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.
         """
-        if index <= 0:
+        if index <= 0:                          # 添加列表头
             self.addAtHead(val)
-        elif index < self.len:
+        elif index < self.len:                  # 添加列表中间节点
             NewNode = LinkedListNode(val)
 
             NodeGot = self.head
@@ -88,16 +89,25 @@ class MyLinkedList:
             NewNode.next = NodeGot
 
             self.len += 1
-        elif index == self.len:
+        elif index == self.len:                 # 添加列表尾
             self.addAtTail(val)
-        else:
+        else:                                   # index大于列表长度不作添加
             pass
 
     def deleteAtIndex(self, index: int) -> None:
         """
         Delete the index-th node in the linked list, if the index is valid.
         """
-        if index > 0 and index < self.len - 1:
+        if self.len == 0:                            # 空列表不作删除
+            pass
+        elif self.len == 1 and index == 0:           # 单一元素列表作删除
+            ListHead = self.head
+            self.head = None
+            self.tail = None
+            del(ListHead)
+
+            self.len = 0
+        elif index > 0 and index < self.len - 1:     # 删除列表中间元素
             NodeGot = self.head.next
             IndexGot = 1
             while IndexGot < index:
@@ -108,60 +118,36 @@ class MyLinkedList:
             del(NodeGot)
 
             self.len -= 1
-        elif index == 0:
+        elif index == 0:                             # 删除列表头
             self.deleteHead()
-        elif index == self.len - 1:
+        elif index == self.len - 1:                  # 删除列表尾
             self.deleteTail()
-        else:
+        else:                                        # 其余情况为输入错误，不作删除
             pass
 
     def deleteHead(self) -> None:
         """
         Delete the head of the linked list.
         """
-        if self.head is None:
-            pass
-        elif self.len == 1:
-            ListHead = self.head
-            self.head = None
-            self.tail = None
-            del(ListHead)
-        else:
-            ListHead = self.head
-            if ListHead.next is None:
-                self.head = None
-                del(ListHead)
-            else:
-                HeadNext = ListHead.next
-                self.head = HeadNext
-                HeadNext.prev = None
-                del(ListHead)
+        ListHead = self.head
+        HeadNext = self.head.next
+        self.head = HeadNext
+        HeadNext.prev = None
+        del(ListHead)
 
-            self.len -= 1
+        self.len -= 1
 
     def deleteTail(self) -> None:
         """
         Delete the tail of the linked list.
         """
-        if self.tail is None:
-            pass
-        elif self.len == 1:
-            ListTail = self.tail
-            self.head = None
-            self.tail = None
-            del(ListHead)
-        else:
-            ListTail = self.tail
-            if ListTail.prev is None:
-                self.tail = None
-                del(ListTail)
-            else:
-                TailPrev = ListTail.prev
-                self.tail = TailPrev
-                TailPrev.next = None
-                del(ListTail)
+        ListTail = self.tail
+        TailPrev = self.tail.prev
+        self.tail = TailPrev
+        TailPrev.next = None
+        del(ListTail)
 
-            self.len -= 1
+        self.len -= 1
 
 
 
