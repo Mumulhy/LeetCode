@@ -2,9 +2,9 @@
 
 Author：_Mumu
 
-创建日期：2021/4/30
+创建日期：2021/5/11
 
-通过日期：2021/4/30
+通过日期：2021/5/11
 
 ![](https://github.com/Mumulhy/LeetCode/blob/master/1734-解码异或后的排列/通过截图2.jpg)
 

@@ -8,6 +8,7 @@ Created on Fri May 11 17:13 2021
 Environment: py38
 """
 
+
 class Solution:
     def decode(self, encoded: list) -> list:
         n = len(encoded) + 1
@@ -16,11 +17,11 @@ class Solution:
         else:
             xor_all = 0
         first_num = xor_all
-        for i in range((n-1)//2):
-            first_num ^= encoded[2*i+1]
+        for i in range((n - 1) // 2):
+            first_num ^= encoded[2 * i + 1]
         decoded = [first_num]
         for i in encoded:
-            decoded.append(decoded[-1]^i)
+            decoded.append(decoded[-1] ^ i)
         return decoded
 
         # 之前写的愚蠢硬解算法
@@ -40,6 +41,7 @@ class Solution:
         #     else:
         #         decoded.clear()
 
+
 if __name__ == '__main__':
     s = Solution()
-    print(s.decode([6,5,4,6]))
+    print(s.decode([6, 5, 4, 6]))
