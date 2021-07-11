@@ -8,6 +8,7 @@ Created on Sat Jul 10 19:37 2021
 Environment: py38
 """
 
+
 class TimeMap:
 
     def __init__(self):
@@ -40,6 +41,7 @@ class TimeMap:
             return self.info[key][1][left]
         else:
             return ''
+
 
 # Your TimeMap object will be instantiated and called as such:
 # obj = TimeMap()
