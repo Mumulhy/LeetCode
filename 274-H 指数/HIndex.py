@@ -28,6 +28,7 @@ class Solution:
                 return citation
         return times
 
+
 if __name__ == '__main__':
     s = Solution()
-    print(s.hIndex([100,100,1,1]))
+    print(s.hIndex([100, 100, 1, 1]))
