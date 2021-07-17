@@ -46,6 +46,7 @@ class Solution:
                 left = mid
         return right
 
+
 if __name__ == '__main__':
     s = Solution()
-    print(s.search(nums = [1,4], target = 4))
+    print(s.search(nums=[1, 4], target=4))
