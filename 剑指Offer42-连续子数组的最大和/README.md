@@ -1,4 +1,4 @@
-# 剑指 Offer 42-连续子数组的最大和
+# 剑指Offer42-连续子数组的最大和
 
 Author：_Mumu
 
@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/7/17
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/剑指 Offer 42-连续子数组的最大和/通过截图2.jpg)
+![](https://github.com/Mumulhy/LeetCode/blob/master/剑指Offer42-连续子数组的最大和/通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/剑指 Offer 42-连续子数组的最大和/通过截图1.jpg)
+![](https://github.com/Mumulhy/LeetCode/blob/master/剑指Offer42-连续子数组的最大和/通过截图1.jpg)
 
 *****
 

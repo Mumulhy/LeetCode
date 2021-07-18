@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# LeetCode 剑指 Offer 42-连续子数组的最大和
+# LeetCode 剑指Offer42-连续子数组的最大和
 
 """
 Created on Sat Jul 17 20:39 2021

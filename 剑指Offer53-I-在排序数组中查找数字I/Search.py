@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# LeetCode 剑指 Offer 53 - I-在排序数组中查找数字I
+# LeetCode 剑指Offer53-I-在排序数组中查找数字I
 
 """
 Created on Fri Jul 16 19:54 2021
