@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/7/21
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/剑指Offer52-两个链表的第一个公共节点/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/剑指Offer52-两个链表的第一个公共节点/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

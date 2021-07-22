@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/5/11
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1734-解码异或后的排列/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1734-解码异或后的排列/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

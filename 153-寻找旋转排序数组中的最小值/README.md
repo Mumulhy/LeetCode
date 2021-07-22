@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/4/8
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/153-寻找旋转排序数组中的最小值/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/153-寻找旋转排序数组中的最小值/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

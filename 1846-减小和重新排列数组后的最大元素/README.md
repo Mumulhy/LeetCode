@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/7/15
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1846-减小和重新排列数组后的最大元素/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1846-减小和重新排列数组后的最大元素/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

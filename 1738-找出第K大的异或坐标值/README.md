@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/5/19
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1738-找出第K大的异或坐标值/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1738-找出第K大的异或坐标值/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

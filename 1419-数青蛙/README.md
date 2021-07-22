@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/2/18
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1419-数青蛙/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1419-数青蛙/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

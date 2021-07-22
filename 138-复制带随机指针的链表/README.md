@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/7/22
 
-![](https://github.com/Mumulhy/LeetCode/tree/master/138-复制带随机指针的链表/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/tree/master/138-复制带随机指针的链表/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

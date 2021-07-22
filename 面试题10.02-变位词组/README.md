@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/7/18
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/面试题10.02-变位词组/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/面试题10.02-变位词组/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

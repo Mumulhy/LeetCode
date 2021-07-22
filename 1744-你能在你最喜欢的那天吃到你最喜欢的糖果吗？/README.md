@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/6/1
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/1744-你能在你最喜欢的那天吃到你最喜欢的糖果吗？/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

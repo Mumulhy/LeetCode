@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/7/12
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/275-H 指数II/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/275-H 指数II/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

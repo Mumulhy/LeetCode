@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/7/10
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/981-基于时间的键值存储/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/981-基于时间的键值存储/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 

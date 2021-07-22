@@ -6,9 +6,9 @@ Author：_Mumu
 
 通过日期：2021/6/1
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/461-汉明距离/通过截图2.jpg)
+![](./通过截图2.jpg)
 
-![](https://github.com/Mumulhy/LeetCode/blob/master/461-汉明距离/通过截图1.jpg)
+![](./通过截图1.jpg)
 
 *****
 
