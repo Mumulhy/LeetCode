@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# LeetCode 1337-矩阵中战斗力最弱的 K 行
+# LeetCode 1337-矩阵中战斗力最弱的K行
 
 """
 Created on Sun Aug 1 20:19 2021

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# LeetCode 863-二叉树中所有距离为 K 的结点
+# LeetCode 863-二叉树中所有距离为K的结点
 
 """
 Created on Wed Jul 28 20:30 2021
