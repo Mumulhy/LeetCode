@@ -8,6 +8,7 @@ Created on Mon Aug 23 16:56 2021
 Environment: py38
 """
 
+
 class Solution:
     def getMaximumGenerated(self, n: int) -> int:
         if n <= 1:
@@ -16,12 +17,13 @@ class Solution:
         num_max = 1
         for i in range(2, n + 1):
             if i & 1 == 1:
-                nums.append(nums[i//2] + nums[i//2+1])
+                nums.append(nums[i // 2] + nums[i // 2 + 1])
                 if nums[-1] > num_max:
                     num_max = nums[-1]
             else:
-                nums.append(nums[i//2])
+                nums.append(nums[i // 2])
         return num_max
+
 
 if __name__ == '__main__':
     s = Solution()
