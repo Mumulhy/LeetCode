@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# LeetCode 1646-获取生成数组中的最大值
+# LeetCode 787-K站中转内最便宜的航班
 
 """
 Created on Tues Aug 24 14:30 2021
