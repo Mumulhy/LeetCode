@@ -2,7 +2,7 @@
 # LeetCode 725-分隔链表
 
 """
-Created on Wed Sept 21 21:37 2021
+Created on Wed Sept 22 21:37 2021
 
 @author: _Mumu
 Environment: py38
