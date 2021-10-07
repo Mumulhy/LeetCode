@@ -9,7 +9,6 @@ Environment: py38
 """
 
 from heapq import heappush, heappushpop
-
 from typing import List
 
 
