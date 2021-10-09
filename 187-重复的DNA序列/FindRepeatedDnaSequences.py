@@ -2,7 +2,7 @@
 # LeetCode 187-重复的DNA序列
 
 """
-Created on Thu Oct 8 21:45 2021
+Created on Fri Oct 8 21:45 2021
 
 @author: _Mumu
 Environment: py38
