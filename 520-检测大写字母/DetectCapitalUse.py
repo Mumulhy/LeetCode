@@ -8,6 +8,7 @@ Created on Sat Nov 13 22:12 2021
 Environment: py38
 """
 
+
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         if len(word) == 1:
@@ -19,6 +20,7 @@ class Solution:
             if s.isupper() ^ secondCapital:
                 return False
         return True
+
 
 if __name__ == '__main__':
     s = Solution()
