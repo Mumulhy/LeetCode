@@ -10,6 +10,7 @@ Environment: py38
 
 from typing import List
 
+
 class Solution:
     def numFriendRequests(self, ages: List[int]) -> int:
         cnt = [0] * 121
@@ -26,6 +27,7 @@ class Solution:
             ans += cnt[age] * (pre[age] - pre[bound] - 1)
         return ans
 
+
 if __name__ == '__main__':
     s = Solution()
-    print(s.numFriendRequests([20,30,100,110,120]))
+    print(s.numFriendRequests([20, 30, 100, 110, 120]))
