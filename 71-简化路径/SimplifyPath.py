@@ -8,6 +8,7 @@ Created on Thu Jan 6 12:00 2022
 Environment: py38
 """
 
+
 class Solution:
     def simplifyPath(self, path: str) -> str:
         res = []
@@ -19,6 +20,7 @@ class Solution:
                 else:
                     res.append(d)
         return '/' + '/'.join(res)
+
 
 if __name__ == '__main__':
     s = Solution()
