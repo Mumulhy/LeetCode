@@ -19,26 +19,61 @@ class Solution:
             graph[x].append(y)
             graph[y].append(x)
 
-        dist = [[float('inf')] * 2 for _ in range(n + 1)]
-        dist[1][0] = 0
-        q = deque([(1, 0)])
-        while dist[n][1] == float('inf'):
-            p = q.popleft()
-            for y in graph[p[0]]:
-                d = p[1] + 1
-                if d < dist[y][0]:
-                    dist[y][0] = d
-                    q.append((y, d))
-                elif dist[y][0] < d < dist[y][1]:
-                    dist[y][1] = d
-                    q.append((y, d))
+        dist = [-1] * (n + 1)
+        dist[1] = 0
+        q = deque()
+        q.append(1)
+        while q:
+            u = q.popleft()
+            for v in graph[u]:
+                if dist[v] == -1:
+                    q.append(v)
+                    dist[v] = dist[u] + 1
+
+        exist = False
+        q.append(n)
+        while exist is False and q:
+            u = q.popleft()
+            for v in graph[u]:
+                if dist[v] == dist[u]:
+                    exist = True
+                    break
+                elif dist[v] == dist[u] - 1:
+                    q.append(v)
+        dis = dist[n] + 1 if exist else dist[n] + 2
 
         ans = 0
-        for _ in range(dist[n][1]):
+        for _ in range(dis):
             if ans % (change * 2) >= change:
                 ans += change * 2 - ans % (change * 2)
             ans += time
         return ans
+
+        # graph = [[] for _ in range(n + 1)]
+        # for x, y in edges:
+        #     graph[x].append(y)
+        #     graph[y].append(x)
+        #
+        # dist = [[float('inf')] * 2 for _ in range(n + 1)]
+        # dist[1][0] = 0
+        # q = deque([(1, 0)])
+        # while dist[n][1] == float('inf'):
+        #     p = q.popleft()
+        #     for y in graph[p[0]]:
+        #         d = p[1] + 1
+        #         if d < dist[y][0]:
+        #             dist[y][0] = d
+        #             q.append((y, d))
+        #         elif dist[y][0] < d < dist[y][1]:
+        #             dist[y][1] = d
+        #             q.append((y, d))
+        #
+        # ans = 0
+        # for _ in range(dist[n][1]):
+        #     if ans % (change * 2) >= change:
+        #         ans += change * 2 - ans % (change * 2)
+        #     ans += time
+        # return ans
 
 
 if __name__ == '__main__':
