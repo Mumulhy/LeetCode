@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 1413-逐步求和得到正数的最小值
+# LeetCode 1413-逐步求和得到正数的最小值
 
 """
 Created on Tues Aug 9 09:29 2022
