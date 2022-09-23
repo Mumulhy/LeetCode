@@ -2,9 +2,11 @@
 
 Author：_Mumu
 
-创建日期：2019/10/2
+创建日期：2019/10/02
 
-通过日期：2019/10/3
+通过日期：2019/10/03
+
+修订日期：2022/09/23
 
 ![](./通过截图2.jpg)
 
@@ -17,8 +19,13 @@ Author：_Mumu
 1. index从0开始计
 2. 删除单一元素链表时，链表的head与tail要置None
 3. 写双向链表时，addAtIndex方法别写出让新节点自己指向自己的语句（主要出错在prev，next不容易犯错）
+4. 【修订】以前写的代码好繁琐，不过这居然是我做的第一个力扣题嘛，真怀念
+5. 【修订】以前注释写得好详细，看这情况当时好像指针还搞不太清楚hhhh
+6. 【修订】总之1-3三条都是现在已经不可能犯的错了
 
 已解决：1/1189
+
+【修订】已解决：470/2783
 
 *****
 
@@ -36,6 +43,7 @@ addAtTail(val)：将值为 val 的节点追加到链表的最后一个元素。
 addAtIndex(index,val)：在链表中的第 index 个节点之前添加值为 val  的节点。如果 index 等于链表的长度，则该节点将附加到链表的末尾。如果 index 大于链表长度，则不会插入节点。如果index小于0，则在头部插入节点。
 deleteAtIndex(index)：如果索引 index 有效，则删除链表中的第 index 个节点。
 
+
 示例：
 
 MyLinkedList linkedList = new MyLinkedList();
@@ -46,6 +54,7 @@ linkedList.get(1);            //返回2
 linkedList.deleteAtIndex(1);  //现在链表是1-> 3
 linkedList.get(1);            //返回3
 
+
 提示：
 
 所有val值都在 [1, 1000] 之内。
@@ -53,4 +62,4 @@ linkedList.get(1);            //返回3
 请不要使用内置的 LinkedList 库。
 
 来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/design-linked-list
+链接：https://leetcode.cn/problems/design-linked-list
