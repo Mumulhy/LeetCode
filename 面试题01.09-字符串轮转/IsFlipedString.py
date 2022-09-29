@@ -2,7 +2,7 @@
 # LeetCode 面试题01.09-字符串轮转
 
 """
-Created on Fri Sept 29 10:29 2022
+Created on Thu Sept 29 10:29 2022
 
 @author: _Mumu
 Environment: py38
