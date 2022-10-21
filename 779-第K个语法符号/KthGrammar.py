@@ -8,6 +8,7 @@ Created on Thu Oct 20 09:45 2022
 Environment: py39
 """
 
+
 class Solution:
     def kthGrammar(self, n: int, k: int) -> int:
         ans = 0
@@ -19,6 +20,7 @@ class Solution:
                 ans = 1 - ans
         return ans
 
+
 if __name__ == '__main__':
     s = Solution()
-    print(s.kthGrammar(n = 2, k = 2))
+    print(s.kthGrammar(n=2, k=2))
