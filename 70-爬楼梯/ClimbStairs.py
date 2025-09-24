@@ -1,3 +1,14 @@
+# -*- coding: utf-8 -*-
+# LeetCode 70-爬楼梯
+
+"""
+Created on Wed Sept 24 14:44 2025
+
+@author: _Mumu
+Environment: py3
+"""
+
+
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n == 1:
